@@ -11,7 +11,7 @@ var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : 
 function loadHtml(){
 	var div = document.createElement('div');
 	div.id = 'weixin-tip';
-	div.innerHTML = '<p> <img src="//cer.signtool.cn/img/live_weixin.png" width="95%"> </p>';
+	div.innerHTML = '<p> <img src="//img13.360buyimg.com/u/jfs/t1/181097/17/24642/11148/62754da2Efb70067e/c5b2347874fbbd5d.png" width="95%"> </p>';
 	document.body.appendChild(div);
 }
 
