@@ -27,7 +27,7 @@ function loadStyleText(cssText) {
 	var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
 	head.appendChild(style); 
 }
-var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 100%; height:100%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";
+var cssText = "#weixin-tip{overflow: hidden;position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 100%; height:100%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";
 if(isWeixin){
 	loadHtml();
 	loadStyleText(cssText);
