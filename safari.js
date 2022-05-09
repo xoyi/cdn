@@ -1,6 +1,6 @@
 function is_weixin() {
 	var ua = navigator.userAgent.toLowerCase();
-	if (ua.match(/MicroMessenger/i) == "micromessenger" || ua.match(/QQ/i) == "qq" || ua.match(/WeiBo/i) == "weibo") {
+	if (ua.match(/MicroMessenger/i) == "micromessenger" || ua.match(/QQ\//i) == "qq/") {
 		return true;
 	} else {
 		return false;
